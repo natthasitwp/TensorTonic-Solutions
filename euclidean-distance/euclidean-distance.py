@@ -8,4 +8,4 @@ def euclidean_distance(x, y):
     # Write code here
     x = np.array(x)
     y = np.array(y)
-    return np.sqrt(sum((x-y)** 2))
+    return np.linalg.norm(x-y)
